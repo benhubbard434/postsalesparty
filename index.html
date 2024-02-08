@@ -45,7 +45,20 @@
 		.footer { padding: 28px 8px 8px 8px; }
 		.footer p {text-align: center; color: #f63e02; font-size: 12px;}
 
-		@media (max-width: 500px) {.half {width:100%; float: none; margin-bottom: 20px;} .logo-holder {margin-bottom: 45px;} .whitebg {padding: 32px;}}
+
+		.button {background: #FF4742;border: 1px solid #FF4742;border-radius: 6px;box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;box-sizing: border-box; color: #FFFFFF; cursor: pointer; display: inline-block; font-family: 'vc_henrietta_medium'; font-size: 16px; line-height: 16px; min-height: 40px; outline: 0; padding: 12px 14px; text-align: center; text-rendering: geometricprecision; text-transform: none; user-select: none; -webkit-user-select: none; touch-action: manipulation; vertical-align: middle;}
+		.button:hover, .button:active { background-color: initial; background-position: 0 0; color: #FF4742;}
+		.button:active {  opacity: .5;}
+
+		.cta {padding: 32px; text-align: center;}
+
+		html {scroll-behavior: smooth;}
+
+		@media (max-width: 500px) {	.half {width:100%; float: none; margin-bottom: 20px;} 
+									.logo-holder {margin-bottom: 45px;} 
+									.whitebg {padding: 32px;}
+									.cta {position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: white; padding: 24px; border-top: 3px dashed #D30C7B}
+								}
 
 	</style>
 </head>
@@ -61,7 +74,9 @@
 				<h1 class="no-margin-top">A community for folks working in SaaS post sales</h1>
 				<p>Account Managers, Customer Success, Customer Support, Implementation, Onboarding, Technical Account Managers, and everyone inbetween. We want to create a community where you feel welcome to network, to build your network, not to be sold to or recruited.</p>
 			</div>
-
+			<div class="cta">
+				<a href="#join"><button class="button" role="button">Join as a founding member</button></a>
+			</div>
 			<div class="section">
 				<p>During lockdown, a lot of meet-ups and communities moved to online, and once we started to venture out, these didn't come back. During the series of layoffs that happened in late 2022 to now, we've been searching for a community of likeminded post-sales people, and could only find brand sponsored events.</p>
 				<p>Now, there's nothing wrong with a brand sponsored event - we're just looking to create a community where the goal is to build a support network of peers without the pressure to buy the latest CS software.</p>
@@ -91,6 +106,9 @@
 					</div>
 				</div>
 				<div class="clear"></div>
+			</div>
+			<div class="signup" id="join">
+				
 			</div>
 		</div>
 		<div class="footer">
