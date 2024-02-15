@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Social icon</title>
+    <g id="Social-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="1000" height="1000"></rect>
+        <g id="Party" transform="translate(197.277176, 643.319631)" font-family="VCHenrietta-Trial-Black, VC Henrietta Trial" font-size="170" font-style="condensed" font-weight="800" letter-spacing="1.88888889">
+            <text id="Y" transform="translate(535.933229, 105.263458) rotate(3.000000) translate(-535.933229, -105.263458) " fill="#FFFFFF">
+                <tspan x="474.723784" y="173.263458">Y</tspan>
+            </text>
+            <text id="T" fill="#FFCF00">
+                <tspan x="355.835135" y="230.498024">T</tspan>
+            </text>
+            <text id="R" transform="translate(294.273455, 124.354438) rotate(-3.000000) translate(-294.273455, -124.354438) " fill="#D30C7B">
+                <tspan x="228.72901" y="192.354438">R</tspan>
+            </text>
+            <text id="A" transform="translate(170.393381, 141.174059) rotate(6.000000) translate(-170.393381, -141.174059) " fill="#FFCF00">
+                <tspan x="103.998937" y="209.174059">A</tspan>
+            </text>
+            <text id="P" fill="#FFFFFF">
+                <tspan x="3.18169418" y="192.316065">P</tspan>
+            </text>
+        </g>
+        <g id="Sales" transform="translate(189.277176, 356.372000)" font-family="VCHenrietta-Trial-Black, VC Henrietta Trial" font-size="170" font-style="condensed" font-weight="800" letter-spacing="1.88888889">
+            <text id="S" fill="#F63E02">
+                <tspan x="505.675684" y="196.284867">S</tspan>
+            </text>
+            <text id="E" transform="translate(432.021031, 180.922807) rotate(-4.000000) translate(-432.021031, -180.922807) " fill="#FFFFFF">
+                <tspan x="373.446586" y="248.922807">E</tspan>
+            </text>
+            <text id="L" fill="#D30C7B">
+                <tspan x="258.967791" y="170">L</tspan>
+            </text>
+            <text id="A" transform="translate(190.785209, 133.080990) rotate(2.000000) translate(-190.785209, -133.080990) " fill="#F63E02">
+                <tspan x="124.390764" y="201.08099">A</tspan>
+            </text>
+            <text id="S" fill="#FFFFFF">
+                <tspan x="3.08542662" y="217.790667">S</tspan>
+            </text>
+        </g>
+        <g id="Post" transform="translate(228.000000, 93.209692)" font-family="VCHenrietta-Trial-Black, VC Henrietta Trial" font-size="170" font-style="condensed" font-weight="800" letter-spacing="1.88888889">
+            <text id="P" transform="translate(69.401484, 145.001281) rotate(3.000000) translate(-69.401484, -145.001281) " fill="#FFFFFF">
+                <tspan x="8.44703988" y="213.001281">P</tspan>
+            </text>
+            <text id="T" transform="translate(464.171890, 154.663607) rotate(-6.000000) translate(-464.171890, -154.663607) " fill="#FFFFFF">
+                <tspan x="397.777446" y="222.663607">T</tspan>
+            </text>
+            <text id="S" transform="translate(337.347339, 128.527604) rotate(8.000000) translate(-337.347339, -128.527604) " fill="#FFCF00">
+                <tspan x="280.727894" y="196.527604">S</tspan>
+            </text>
+            <text id="O" fill="#D30C7B">
+                <tspan x="135.86378" y="170">O</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
