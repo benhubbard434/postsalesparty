@@ -38,6 +38,10 @@
 		h5 {color: #f63e02; font-size: 20px; line-height: 24px; font-family: 'vc_henrietta_medium'; margin: 8px 0 0 0;}
 		p {font-size: 16px; line-height: 24px; color: black; font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif; margin-bottom: 8px; }
 		label {font-size: 16px; line-height: 24px; color: black; font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;}
+		
+		ul {-webkit-column-count: 3;-moz-column-count: 3;column-count: 3; padding: 16px 0;}
+		li {list-style-type: "🎉"; font-size: 16px; line-height: 24px; color: black; font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif; margin-bottom: 8px; padding-left: 5px;}
+		
 
 		.content {width: 95%; max-width: 800px; margin: 20px auto}
 		.whitebg {background: #FDFFFC; padding: 64px; border-radius: 4px;}
@@ -66,7 +70,9 @@
 		.form-body {padding: 16px;}
 		.form-field {padding: 16px; background: #F1F7F9; margin-bottom: 16px; border-radius: 2px;}
 		
-
+		@media (max-width: 800px) {
+									ul {-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;}
+								}
 		@media (max-width: 500px) {	.half {width:100%; float: none; margin-bottom: 20px;  border: 1px solid #D30C7B; border-radius: 5px; } 
 									.logo-holder {margin-bottom: 45px;} 
 									.whitebg {padding: 32px;}
@@ -91,9 +97,21 @@
 			<div class="cta">
 				<a href="#join"><button class="button" role="button">Join as a founding member</button></a>
 			</div>
+
 			<div class="section">
-				<p>During lockdown, a lot of meet-ups and communities moved to online, and once we started to venture out, these didn't come back. During the series of layoffs that happened in late 2022 to now, we've been searching for a community of likeminded post-sales people, and could only find brand sponsored events.</p>
-				<p>Now, there's nothing wrong with a brand sponsored event - we're just looking to create a community where the goal is to build a support network of peers without the pressure to buy the latest CS software.</p>
+				<h1>Who are you?</h1>
+				<p>We welcome anyone who works in a post sales role. If you're in:</p>
+				<ul>
+						<li>Account Management</li>
+						<li>Customer Enablement</li>
+						<li>Customer Success</li>
+						<li>Customer Support</li>
+						<li>Help Documentation</li>
+						<li>Implementation</li>
+						<li>Onboarding</li>
+						<li>Technical Account Management</li>
+				</ul>
+				
 			</div>
 			<div class="section">
 				<h1>Who we are</h1>
@@ -120,6 +138,11 @@
 					</div>
 				</div>
 				<div class="clear"></div>
+			</div>
+			<div class="section">
+				<h1>Why?</h1>
+				<p>During lockdown, a lot of meet-ups and communities moved to online, and once we started to venture out, these didn't come back. During the series of layoffs that happened in late 2022 to now, we've been searching for a community of likeminded post-sales people, and could only find brand sponsored events.</p>
+				<p>Now, there's nothing wrong with a brand sponsored event - we're just looking to create a community where the goal is to build a support network of peers without the pressure to buy the latest CS software.</p>
 			</div>
 			<div class="signup" id="join">
 				<div class="form-holder">
